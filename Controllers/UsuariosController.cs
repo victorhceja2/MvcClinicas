@@ -22,9 +22,20 @@ namespace MvcClinicas.Controllers
         // GET: Usuarios
         public async Task<IActionResult> Index()
         {
+            var loginsesion= HttpContext.Session.GetObject<Login>("ObjetoComplejo");
+            if(loginsesion == null)
+             {
+                return RedirectToAction("Create","Login");
+             }         
+             if(loginsesion.Nivel == 5)
+             {return RedirectToAction("Create","Login");}
+             if(loginsesion.Nivel <= 1){               
               return _context.Usuario != null ? 
                           View(await _context.Usuario.ToListAsync()) :
                           Problem("Entity set 'MvcMovieContext.Usuario'  is null.");
+             }
+            else{
+                    return RedirectToAction("Index","Home");}   
         }
 
         // GET: Usuarios/Details/5
@@ -62,6 +73,8 @@ namespace MvcClinicas.Controllers
             {
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
+                string texto = $"Bienvenido { usuario.Nombre} Plataforma de Asociación de Espina Bífida de Nuevo León, A.B.P. ha sido registrado con éxito, su password es: {usuario.Password}";
+                EnviarMail.Send(usuario.CorreoElectronico,"Registro AEBNL", texto);        
                 return RedirectToAction(nameof(Index));
             }
             return View(usuario);

@@ -16560,6 +16560,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Login/Logout.cshtml",
+      "TargetPath": "Views\\Login\\Logout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Login/Edit.cshtml",
+      "TargetPath": "Views\\Login\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Usuarios/Details.cshtml",
       "TargetPath": "Views\\Usuarios\\Details.cshtml",
       "FileKind": "mvc"
@@ -16575,6 +16585,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Login/Delete.cshtml",
+      "TargetPath": "Views\\Login\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Login/Create.cshtml",
+      "TargetPath": "Views\\Login\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Usuarios/Edit.cshtml",
       "TargetPath": "Views\\Usuarios\\Edit.cshtml",
       "FileKind": "mvc"
@@ -16587,6 +16607,11 @@
     {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Usuarios/Delete.cshtml",
       "TargetPath": "Views\\Usuarios\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Login/Index.cshtml",
+      "TargetPath": "Views\\Login\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16612,6 +16637,11 @@
     {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Login/Details.cshtml",
+      "TargetPath": "Views\\Login\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],

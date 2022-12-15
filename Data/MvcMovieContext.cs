@@ -15,5 +15,7 @@ namespace MvcClinicas.Data
         }
 
         public DbSet<MvcClinicas.Models.Usuario> Usuario { get; set; } = default!;
+
+        public DbSet<MvcClinicas.Models.Login> Login { get; set; } = default!;
     }
 }

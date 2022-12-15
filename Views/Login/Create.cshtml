@@ -1,0 +1,46 @@
+@model MvcClinicas.Models.Login
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <p style = "text-align:center">
+         <img src="/logo-aebnl.png">
+        <h2 class="display-4" style = "text-align:center">Bienvenidos</h2>  
+        </p>
+</div>
+<div class="row">
+
+
+    <div class="col-md-4">
+        
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="Usuario" class="control-label"></label>
+                <input asp-for="Usuario" class="form-control" />
+                <span asp-validation-for="Usuario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            </br>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" />
+                 <a asp-controller="Home" asp-action="Index" class="btn btn-outline-dark" >Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

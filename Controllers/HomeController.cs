@@ -15,6 +15,12 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+
+         var loginsesion= HttpContext.Session.GetObject<Login>("ObjetoComplejo");
+        if(loginsesion == null)
+        {
+        return RedirectToAction("Create","Login");
+        }     
         return View();
     }
 

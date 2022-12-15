@@ -300,3 +300,6 @@
 /Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/bin/Debug/net7.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
 /Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/obj/Debug/net7.0/MvcClinicas.csproj.CopyComplete
+/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/bin/Debug/net7.0/MailKit.dll
+/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/bin/Debug/net7.0/MimeKit.dll
+/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/bin/Debug/net7.0/BouncyCastle.Crypto.dll

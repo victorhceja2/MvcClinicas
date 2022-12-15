@@ -1,0 +1,42 @@
+@model MvcClinicas.Models.Login
+
+@{
+    ViewData["Title"] = "Logout";
+}
+
+<h2>
+    Has salido del sistema
+    <small class="text-muted">hasta la próxima(Logout)</small>
+    </h2>
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item active">Logout</li>
+</ol>
+<div>
+
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id_Usuario)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id_Usuario)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Usuario)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Usuario)
+        </dd>
+
+    </dl>
+    <form asp-action="Delete">
+            <div class="form-group">
+
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a class="btn btn-outline-dark"asp-action="Index">Regresar  </a></li>
+
+                </ol>
+            </div> 
+    </form>
+</div>

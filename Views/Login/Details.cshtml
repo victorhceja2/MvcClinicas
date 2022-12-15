@@ -1,26 +1,26 @@
-@model MvcClinicas.Models.Usuario
+@model MvcClinicas.Models.Login
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Detalles</h1>
+<h1>Details</h1>
 
 <div>
-    <h4>Usuario</h4>
+    <h4>Login</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nombre)
+            @Html.DisplayNameFor(model => model.Id_Usuario)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nombre)
+            @Html.DisplayFor(model => model.Id_Usuario)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CorreoElectronico)
+            @Html.DisplayNameFor(model => model.Usuario)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CorreoElectronico)
+            @Html.DisplayFor(model => model.Usuario)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Password)
@@ -29,10 +29,16 @@
             @Html.DisplayFor(model => model.Password)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaAlta)
+            @Html.DisplayNameFor(model => model.FechaLogin)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FechaAlta)
+            @Html.DisplayFor(model => model.FechaLogin)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaLogout)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FechaLogout)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Nivel)
@@ -43,9 +49,6 @@
     </dl>
 </div>
 <div>
-    </br>
-    <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-        </br>
-        </br>
-    <a class="btn btn-outline-dark" asp-action="Index">Regresar</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
 </div>
