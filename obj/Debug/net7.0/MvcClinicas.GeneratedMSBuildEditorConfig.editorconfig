@@ -16,6 +16,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/victorceja/Projects/ProyectoClinicas/MvcClinicas
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Asociados/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXNvY2lhZG9zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Asociados/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXNvY2lhZG9zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Asociados/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXNvY2lhZG9zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Asociados/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXNvY2lhZG9zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Asociados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXNvY2lhZG9zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

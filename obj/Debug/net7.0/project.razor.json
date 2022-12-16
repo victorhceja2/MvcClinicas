@@ -16575,8 +16575,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Asociados/Delete.cshtml",
+      "TargetPath": "Views\\Asociados\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Asociados/Create.cshtml",
+      "TargetPath": "Views\\Asociados\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16587,6 +16597,11 @@
     {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Login/Delete.cshtml",
       "TargetPath": "Views\\Login\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Asociados/Details.cshtml",
+      "TargetPath": "Views\\Asociados\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16602,6 +16617,16 @@
     {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Asociados/Index.cshtml",
+      "TargetPath": "Views\\Asociados\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Asociados/Edit.cshtml",
+      "TargetPath": "Views\\Asociados\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
