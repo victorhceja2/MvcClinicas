@@ -68,6 +68,66 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9naW4vTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadAsoComun/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkQXNvQ29tdW4vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadAsoComun/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkQXNvQ29tdW4vRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadAsoComun/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkQXNvQ29tdW4vRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadAsoComun/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkQXNvQ29tdW4vRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadAsoComun/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkQXNvQ29tdW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadecimientoAsociado/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkZWNpbWllbnRvQXNvY2lhZG8vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadecimientoAsociado/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkZWNpbWllbnRvQXNvY2lhZG8vRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadecimientoAsociado/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkZWNpbWllbnRvQXNvY2lhZG8vRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadecimientoAsociado/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkZWNpbWllbnRvQXNvY2lhZG8vRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadecimientoAsociado/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkZWNpbWllbnRvQXNvY2lhZG8vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadresAsociados/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkcmVzQXNvY2lhZG9zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadresAsociados/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkcmVzQXNvY2lhZG9zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadresAsociados/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkcmVzQXNvY2lhZG9zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadresAsociados/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkcmVzQXNvY2lhZG9zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadresAsociados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGFkcmVzQXNvY2lhZG9zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

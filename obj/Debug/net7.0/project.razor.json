@@ -16560,6 +16560,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadAsoComun/Index.cshtml",
+      "TargetPath": "Views\\PadAsoComun\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Login/Logout.cshtml",
       "TargetPath": "Views\\Login\\Logout.cshtml",
       "FileKind": "mvc"
@@ -16595,6 +16600,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadresAsociados/Details.cshtml",
+      "TargetPath": "Views\\PadresAsociados\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Login/Delete.cshtml",
       "TargetPath": "Views\\Login\\Delete.cshtml",
       "FileKind": "mvc"
@@ -16602,6 +16612,11 @@
     {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Asociados/Details.cshtml",
       "TargetPath": "Views\\Asociados\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadecimientoAsociado/Index.cshtml",
+      "TargetPath": "Views\\PadecimientoAsociado\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16630,8 +16645,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadAsoComun/Details.cshtml",
+      "TargetPath": "Views\\PadAsoComun\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Usuarios/Delete.cshtml",
       "TargetPath": "Views\\Usuarios\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadecimientoAsociado/Details.cshtml",
+      "TargetPath": "Views\\PadecimientoAsociado\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16640,8 +16665,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadresAsociados/Delete.cshtml",
+      "TargetPath": "Views\\PadresAsociados\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Usuarios/Index.cshtml",
       "TargetPath": "Views\\Usuarios\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadecimientoAsociado/Create.cshtml",
+      "TargetPath": "Views\\PadecimientoAsociado\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16650,8 +16685,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadresAsociados/Create.cshtml",
+      "TargetPath": "Views\\PadresAsociados\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadecimientoAsociado/Delete.cshtml",
+      "TargetPath": "Views\\PadecimientoAsociado\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16660,8 +16705,38 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadresAsociados/Edit.cshtml",
+      "TargetPath": "Views\\PadresAsociados\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadAsoComun/Edit.cshtml",
+      "TargetPath": "Views\\PadAsoComun\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadresAsociados/Index.cshtml",
+      "TargetPath": "Views\\PadresAsociados\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadecimientoAsociado/Edit.cshtml",
+      "TargetPath": "Views\\PadecimientoAsociado\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadAsoComun/Create.cshtml",
+      "TargetPath": "Views\\PadAsoComun\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/victorceja/Projects/ProyectoClinicas/MvcClinicas/Views/PadAsoComun/Delete.cshtml",
+      "TargetPath": "Views\\PadAsoComun\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {

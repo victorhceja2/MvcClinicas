@@ -1,0 +1,63 @@
+@model MvcClinicas.Models.PadAsoComun
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>PadAsoComun</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="IdPadresAsociado" class="control-label"></label>
+                <input asp-for="IdPadresAsociado" class="form-control" />
+                <span asp-validation-for="IdPadresAsociado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdAsociado" class="control-label"></label>
+                <input asp-for="IdAsociado" class="form-control" />
+                <span asp-validation-for="IdAsociado" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Adicciones" class="control-label"></label>
+                <input asp-for="Adicciones" class="form-control" />
+                <span asp-validation-for="Adicciones" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HijosDTN" class="control-label"></label>
+                <input asp-for="HijosDTN" class="form-control" />
+                <span asp-validation-for="HijosDTN" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FamiliaresDTN" class="control-label"></label>
+                <input asp-for="FamiliaresDTN" class="form-control" />
+                <span asp-validation-for="FamiliaresDTN" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExposicionToxinas" class="control-label"></label>
+                <input asp-for="ExposicionToxinas" class="form-control" />
+                <span asp-validation-for="ExposicionToxinas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescripcionToxinas" class="control-label"></label>
+                <input asp-for="DescripcionToxinas" class="form-control" />
+                <span asp-validation-for="DescripcionToxinas" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

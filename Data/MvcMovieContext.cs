@@ -19,5 +19,11 @@ namespace MvcClinicas.Data
         public DbSet<MvcClinicas.Models.Login> Login { get; set; } = default!;
 
         public DbSet<MvcClinicas.Models.Asociado> Asociado { get; set; } = default!;
+
+        public DbSet<MvcClinicas.Models.PadresAsociado> PadresAsociado { get; set; } = default!;
+
+        public DbSet<MvcClinicas.Models.PadAsoComun> PadAsoComun { get; set; } = default!;
+
+        public DbSet<MvcClinicas.Models.PadecimientoAsociado> PadecimientoAsociado { get; set; } = default!;
     }
 }
