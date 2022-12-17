@@ -61,20 +61,20 @@ namespace MvcClinicas.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FolioCredencial,Nombre,FechaAlta,Sexo,FechaNacimiento,Edad,NombrePadre,NombreMadre,Direccion,Ciudad,Estado,Pais,CP,Telefono1,Telefono2,Telefono3,Telefono4,CorreoElectronico,Emergencias,ImageName,Activo")] Asociado asociado)
+        public async Task<IActionResult> Create([Bind("Id,FolioCredencial,Nombre,FechaAlta,Sexo,FechaNacimiento,Edad,NombrePadre,NombreMadre,Direccion,Ciudad,Estado,Pais,CP,Telefono1,Telefono2,Telefono3,Telefono4,CorreoElectronico,Emergencias,Activo")] Asociado asociado)
         {
             if (ModelState.IsValid)
             {
                             //Save image to wwwroot/image
-            string wwwRootPath = _hostEnvironment.WebRootPath;
-            string fileName = Path.GetFileNameWithoutExtension(asociado.ImageFile.FileName);
-            string extension = Path.GetExtension(asociado.ImageFile.FileName);
-            asociado.ImageName=fileName =  fileName + DateTime.Now.ToString("yymmssfff") + extension;
-            string path = Path.Combine(wwwRootPath + "/Image/", fileName);
-            using (var fileStream = new FileStream(path,FileMode.Create))
-            {
-                await asociado.ImageFile.CopyToAsync(fileStream);
-            }
+            // string wwwRootPath = _hostEnvironment.WebRootPath;
+            // string fileName = Path.GetFileNameWithoutExtension(asociado.ImageFile.FileName);
+            // string extension = Path.GetExtension(asociado.ImageFile.FileName);
+            // asociado.ImageName=fileName =  fileName + DateTime.Now.ToString("yymmssfff") + extension;
+            // string path = Path.Combine(wwwRootPath + "/Image/", fileName);
+            // using (var fileStream = new FileStream(path,FileMode.Create))
+            // {
+            //     await asociado.ImageFile.CopyToAsync(fileStream);
+            // }
                 _context.Add(asociado);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

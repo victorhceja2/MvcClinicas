@@ -96,13 +96,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 
 
-        [Column(TypeName = "nvarchar(600)")]
-        [Display(Name = "Nombre de imagen")]
-        public string ImageName { get; set; }        
+        // [Column(TypeName = "nvarchar(600)")]
+        // [Display(Name = "Nombre de imagen")]
+        // public string ImageName { get; set; }        
 
-        [NotMapped]
-        [Display(Name = "Imagen a cargar")]
-        public IFormFile? ImageFile { get; set; }
+        
+        // [Display(Name = "Imagen a cargar")]
+        // [NotMapped]
+        // public IFormFile ImageFile { get; set; }
 
         [Required]
         public int Activo { get; set; }
