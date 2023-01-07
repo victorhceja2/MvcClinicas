@@ -60,6 +60,8 @@ namespace MvcClinicas.Controllers
         {
             if (ModelState.IsValid)
             {
+                if(TempData["IdAsociado"] != null)
+                {padresAsociado.IdAsociado = int.Parse(TempData["IdAsociado"].ToString());}
                 _context.Add(padresAsociado);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

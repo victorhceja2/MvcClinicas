@@ -43,7 +43,8 @@ namespace MvcClinicas.Controllers
             {
                 return NotFound();
             }
-
+            //Poner aqui el ID del asociado
+            TempData["IdAsociado"] = id.ToString();
             return View(asociado);
         }
 

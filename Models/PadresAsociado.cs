@@ -21,15 +21,15 @@ using System.ComponentModel.DataAnnotations.Schema;
         public int? Edad { get; set;}     
 
         //Madre o Padre
-        [StringLength(10, MinimumLength = 6)]  
+        [StringLength(10, MinimumLength = 1)]  
         public string? Tipo {get; set;}
 
         //SI o NO
-        [StringLength(1, MinimumLength = 1)]  
+        [StringLength(2, MinimumLength = 2)]  
         public string? Parentesco {get; set;}
 
         //SI o NO
-        [StringLength(1, MinimumLength = 1)]  
+        [StringLength(2, MinimumLength = 2)]  
 
         public string? AcidoFolico {get; set;}
 
@@ -38,7 +38,7 @@ using System.ComponentModel.DataAnnotations.Schema;
         [StringLength(15, MinimumLength = 3)]  
         public string? Seguro {get; set;}
 
-        
+
 
     }
 }
